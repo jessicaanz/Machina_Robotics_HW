@@ -1,0 +1,47 @@
+[0.000000] (-) TimerEvent: {}
+[0.000916] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.000997] (sensor_data) JobQueued: {'identifier': 'sensor_data', 'dependencies': OrderedDict([('custom_interfaces', '/home/jca54/Machina_Robotics_HW/ros2_ws/install/custom_interfaces')])}
+[0.001074] (sensor_data) JobStarted: {'identifier': 'sensor_data'}
+[0.101111] (-) TimerEvent: {}
+[0.210338] (-) TimerEvent: {}
+[0.319315] (-) TimerEvent: {}
+[0.428867] (-) TimerEvent: {}
+[0.539038] (-) TimerEvent: {}
+[0.649772] (-) TimerEvent: {}
+[0.758217] (-) TimerEvent: {}
+[0.866459] (-) TimerEvent: {}
+[0.973141] (-) TimerEvent: {}
+[1.043532] (sensor_data) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/sensor_data', 'build', '--build-base', '/home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data/build', 'install', '--record', '/home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data/install.log', '--single-version-externally-managed'], 'cwd': '/home/jca54/Machina_Robotics_HW/ros2_ws/src/sensor_data', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jca54', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jca54/Machina_Robotics_HW/ros2_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jca54', 'OLDPWD': '/home/jca54/Machina_Robotics_HW/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu', '_colcon_cd_root': '/opt/ros/humble/', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jca54', 'NAME': 'DESKTOP-5ODQ4E6', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2204.2.33.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/PharosSystems/Core:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2021a/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Users/jessi/AppData/Local/Microsoft/WindowsApps:/snap/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/jca54/Machina_Robotics_HW/ros2_ws/install/custom_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data/prefix_override:/home/jca54/Machina_Robotics_HW/ros2_ws/install/sensor_data/lib/python3.10/site-packages:/home/jca54/Machina_Robotics_HW/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': '', 'CMAKE_PREFIX_PATH': '/home/jca54/Machina_Robotics_HW/ros2_ws/install/custom_interfaces'}, 'shell': False}
+[1.081252] (-) TimerEvent: {}
+[1.191978] (-) TimerEvent: {}
+[1.301741] (-) TimerEvent: {}
+[1.409385] (-) TimerEvent: {}
+[1.460680] (sensor_data) StdoutLine: {'line': b'running egg_info\n'}
+[1.461536] (sensor_data) StdoutLine: {'line': b'writing ../../build/sensor_data/sensor_data.egg-info/PKG-INFO\n'}
+[1.462355] (sensor_data) StdoutLine: {'line': b'writing dependency_links to ../../build/sensor_data/sensor_data.egg-info/dependency_links.txt\n'}
+[1.462830] (sensor_data) StdoutLine: {'line': b'writing entry points to ../../build/sensor_data/sensor_data.egg-info/entry_points.txt\n'}
+[1.463614] (sensor_data) StdoutLine: {'line': b'writing requirements to ../../build/sensor_data/sensor_data.egg-info/requires.txt\n'}
+[1.464279] (sensor_data) StdoutLine: {'line': b'writing top-level names to ../../build/sensor_data/sensor_data.egg-info/top_level.txt\n'}
+[1.467522] (sensor_data) StdoutLine: {'line': b"reading manifest file '../../build/sensor_data/sensor_data.egg-info/SOURCES.txt'\n"}
+[1.469400] (sensor_data) StdoutLine: {'line': b"writing manifest file '../../build/sensor_data/sensor_data.egg-info/SOURCES.txt'\n"}
+[1.469662] (sensor_data) StdoutLine: {'line': b'running build\n'}
+[1.469789] (sensor_data) StdoutLine: {'line': b'running build_py\n'}
+[1.470127] (sensor_data) StdoutLine: {'line': b'copying sensor_data/sensor_client.py -> /home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data/build/lib/sensor_data\n'}
+[1.482283] (sensor_data) StdoutLine: {'line': b'running install\n'}
+[1.482632] (sensor_data) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.482890] (sensor_data) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.483083] (sensor_data) StdoutLine: {'line': b'running install_lib\n'}
+[1.484436] (sensor_data) StdoutLine: {'line': b'copying /home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data/build/lib/sensor_data/sensor_client.py -> /home/jca54/Machina_Robotics_HW/ros2_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data\n'}
+[1.487525] (sensor_data) StdoutLine: {'line': b'byte-compiling /home/jca54/Machina_Robotics_HW/ros2_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data/sensor_client.py to sensor_client.cpython-310.pyc\n'}
+[1.491836] (sensor_data) StdoutLine: {'line': b'running install_data\n'}
+[1.492710] (sensor_data) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.495037] (sensor_data) StdoutLine: {'line': b"removing '/home/jca54/Machina_Robotics_HW/ros2_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.497111] (sensor_data) StdoutLine: {'line': b'Copying ../../build/sensor_data/sensor_data.egg-info to /home/jca54/Machina_Robotics_HW/ros2_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data-0.0.0-py3.10.egg-info\n'}
+[1.510107] (sensor_data) StdoutLine: {'line': b'running install_scripts\n'}
+[1.510279] (-) TimerEvent: {}
+[1.537086] (sensor_data) StdoutLine: {'line': b'Installing client script to /home/jca54/Machina_Robotics_HW/ros2_ws/install/sensor_data/lib/sensor_data\n'}
+[1.537940] (sensor_data) StdoutLine: {'line': b'Installing service script to /home/jca54/Machina_Robotics_HW/ros2_ws/install/sensor_data/lib/sensor_data\n'}
+[1.538883] (sensor_data) StdoutLine: {'line': b"writing list of installed files to '/home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data/install.log'\n"}
+[1.562079] (sensor_data) CommandEnded: {'returncode': 0}
+[1.588371] (sensor_data) JobEnded: {'identifier': 'sensor_data', 'rc': 0}
+[1.592276] (-) EventReactorShutdown: {}
