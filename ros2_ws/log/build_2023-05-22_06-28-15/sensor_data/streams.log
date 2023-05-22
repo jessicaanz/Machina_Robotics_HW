@@ -1,0 +1,30 @@
+[2.092s] Invoking command in '/home/jca54/Machina_Robotics_HW/ros2_ws/src/sensor_data': AMENT_PREFIX_PATH=/home/jca54/Machina_Robotics_HW/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jca54/Machina_Robotics_HW/ros2_ws/install/custom_interfaces LD_LIBRARY_PATH=/home/jca54/Machina_Robotics_HW/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data/prefix_override:/home/jca54/Machina_Robotics_HW/ros2_ws/install/sensor_data/lib/python3.10/site-packages:/home/jca54/Machina_Robotics_HW/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensor_data build --build-base /home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data/build install --record /home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data/install.log --single-version-externally-managed
+[2.639s] running egg_info
+[2.640s] writing ../../build/sensor_data/sensor_data.egg-info/PKG-INFO
+[2.641s] writing dependency_links to ../../build/sensor_data/sensor_data.egg-info/dependency_links.txt
+[2.642s] writing entry points to ../../build/sensor_data/sensor_data.egg-info/entry_points.txt
+[2.644s] writing requirements to ../../build/sensor_data/sensor_data.egg-info/requires.txt
+[2.645s] writing top-level names to ../../build/sensor_data/sensor_data.egg-info/top_level.txt
+[2.649s] reading manifest file '../../build/sensor_data/sensor_data.egg-info/SOURCES.txt'
+[2.656s] writing manifest file '../../build/sensor_data/sensor_data.egg-info/SOURCES.txt'
+[2.657s] running build
+[2.657s] running build_py
+[2.657s] copying sensor_data/sensor_client.py -> /home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data/build/lib/sensor_data
+[2.670s] copying sensor_data/sensor_service.py -> /home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data/build/lib/sensor_data
+[2.680s] running install
+[2.694s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.694s]   warnings.warn(
+[2.694s] running install_lib
+[2.697s] copying /home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data/build/lib/sensor_data/sensor_client.py -> /home/jca54/Machina_Robotics_HW/ros2_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data
+[2.699s] copying /home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data/build/lib/sensor_data/sensor_service.py -> /home/jca54/Machina_Robotics_HW/ros2_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data
+[2.703s] byte-compiling /home/jca54/Machina_Robotics_HW/ros2_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data/sensor_client.py to sensor_client.cpython-310.pyc
+[2.706s] byte-compiling /home/jca54/Machina_Robotics_HW/ros2_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data/sensor_service.py to sensor_service.cpython-310.pyc
+[2.710s] running install_data
+[2.712s] running install_egg_info
+[2.714s] removing '/home/jca54/Machina_Robotics_HW/ros2_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data-0.0.0-py3.10.egg-info' (and everything under it)
+[2.716s] Copying ../../build/sensor_data/sensor_data.egg-info to /home/jca54/Machina_Robotics_HW/ros2_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data-0.0.0-py3.10.egg-info
+[2.737s] running install_scripts
+[2.771s] Installing client script to /home/jca54/Machina_Robotics_HW/ros2_ws/install/sensor_data/lib/sensor_data
+[2.772s] Installing service script to /home/jca54/Machina_Robotics_HW/ros2_ws/install/sensor_data/lib/sensor_data
+[2.774s] writing list of installed files to '/home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data/install.log'
+[2.802s] Invoked command in '/home/jca54/Machina_Robotics_HW/ros2_ws/src/sensor_data' returned '0': AMENT_PREFIX_PATH=/home/jca54/Machina_Robotics_HW/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jca54/Machina_Robotics_HW/ros2_ws/install/custom_interfaces LD_LIBRARY_PATH=/home/jca54/Machina_Robotics_HW/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data/prefix_override:/home/jca54/Machina_Robotics_HW/ros2_ws/install/sensor_data/lib/python3.10/site-packages:/home/jca54/Machina_Robotics_HW/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensor_data build --build-base /home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data/build install --record /home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data/install.log --single-version-externally-managed

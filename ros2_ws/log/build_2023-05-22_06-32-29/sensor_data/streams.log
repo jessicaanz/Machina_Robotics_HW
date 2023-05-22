@@ -1,0 +1,27 @@
+[1.104s] Invoking command in '/home/jca54/Machina_Robotics_HW/ros2_ws/src/sensor_data': PYTHONPATH=/home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data/prefix_override:/home/jca54/Machina_Robotics_HW/ros2_ws/install/sensor_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensor_data build --build-base /home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data/build install --record /home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data/install.log --single-version-externally-managed
+[1.535s] running egg_info
+[1.536s] writing ../../build/sensor_data/sensor_data.egg-info/PKG-INFO
+[1.537s] writing dependency_links to ../../build/sensor_data/sensor_data.egg-info/dependency_links.txt
+[1.537s] writing entry points to ../../build/sensor_data/sensor_data.egg-info/entry_points.txt
+[1.538s] writing requirements to ../../build/sensor_data/sensor_data.egg-info/requires.txt
+[1.538s] writing top-level names to ../../build/sensor_data/sensor_data.egg-info/top_level.txt
+[1.542s] reading manifest file '../../build/sensor_data/sensor_data.egg-info/SOURCES.txt'
+[1.544s] writing manifest file '../../build/sensor_data/sensor_data.egg-info/SOURCES.txt'
+[1.544s] running build
+[1.545s] running build_py
+[1.545s] copying sensor_data/sensor_client.py -> /home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data/build/lib/sensor_data
+[1.561s] running install
+[1.562s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.562s]   warnings.warn(
+[1.562s] running install_lib
+[1.564s] copying /home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data/build/lib/sensor_data/sensor_client.py -> /home/jca54/Machina_Robotics_HW/ros2_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data
+[1.567s] byte-compiling /home/jca54/Machina_Robotics_HW/ros2_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data/sensor_client.py to sensor_client.cpython-310.pyc
+[1.571s] running install_data
+[1.572s] running install_egg_info
+[1.574s] removing '/home/jca54/Machina_Robotics_HW/ros2_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data-0.0.0-py3.10.egg-info' (and everything under it)
+[1.576s] Copying ../../build/sensor_data/sensor_data.egg-info to /home/jca54/Machina_Robotics_HW/ros2_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data-0.0.0-py3.10.egg-info
+[1.594s] running install_scripts
+[1.622s] Installing client script to /home/jca54/Machina_Robotics_HW/ros2_ws/install/sensor_data/lib/sensor_data
+[1.623s] Installing service script to /home/jca54/Machina_Robotics_HW/ros2_ws/install/sensor_data/lib/sensor_data
+[1.623s] writing list of installed files to '/home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data/install.log'
+[1.647s] Invoked command in '/home/jca54/Machina_Robotics_HW/ros2_ws/src/sensor_data' returned '0': PYTHONPATH=/home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data/prefix_override:/home/jca54/Machina_Robotics_HW/ros2_ws/install/sensor_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensor_data build --build-base /home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data/build install --record /home/jca54/Machina_Robotics_HW/ros2_ws/build/sensor_data/install.log --single-version-externally-managed
