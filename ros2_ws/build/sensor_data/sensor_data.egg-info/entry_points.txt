@@ -1,0 +1,4 @@
+[console_scripts]
+client = sensor_data.sensor_client:main
+service = sensor_data.sensor_service:main
+
