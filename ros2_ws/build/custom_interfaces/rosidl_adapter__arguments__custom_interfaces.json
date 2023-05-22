@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_interfaces",
+  "non_idl_tuples": [
+    "/home/jca54/Machina_Robotics_HW/ros2_ws/src/custom_interfaces:srv/SensorData.srv"
+  ]
+}
