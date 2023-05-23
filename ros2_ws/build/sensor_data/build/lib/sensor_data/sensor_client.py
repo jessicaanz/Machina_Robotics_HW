@@ -1,8 +1,11 @@
+# Based on example.py
+# Import needed libraries and modules
 import socket
 import sys
 import numpy as np
 import time
 import rclpy
+# Import msg and srv files
 from rclpy.node import Node
 from std_msgs.msg import Float64MultiArray
 from custom_interfaces.srv import SensorData
@@ -23,7 +26,7 @@ print('connecting to {} port {}'.format(*server_address2))
 sock1.connect(server_address1)
 sock2.connect(server_address2)
 
-# Initialize a ROS node
+# Initialize a ROS node for the publishing and subscribing
 rclpy.init()
 node = rclpy.create_node('sensor_publisher')
 
@@ -41,7 +44,7 @@ def sensor_data_callback1(msg):
 def sensor_data_callback2(msg):
     print('Sensor 2:', msg.data)
 
-# Subscribe to the sensor data topics
+# Create subscribers to the sensor data topics
 subscription1 = node.create_subscription(
     Float64MultiArray,
     'sensor_data1',
@@ -57,12 +60,14 @@ subscription2 = node.create_subscription(
 subscription1
 subscription2  # Prevent unused variable warnings
 
+# While loop to run as long as the ROS2 network runs
 while rclpy.ok():
     # Retrieve data from sensor 1
     message_string = str(number_of_samples1)
     message = message_string.encode()
     sock1.sendall(message)
     byte_data1 = sock1.recv(10000)
+    # Gives array of data from the called samples
     data1 = np.frombuffer(byte_data1)
 
     # Split the data array into xyz data for each sample

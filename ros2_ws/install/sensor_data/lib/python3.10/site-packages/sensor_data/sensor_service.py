@@ -1,7 +1,9 @@
-""" Simple simulator to generate random samples.
-"""
+# Based on sensor.py
+# Simple simulator to generate random samples
 
 #!/usr/bin/env python3
+
+# Import necessary libraries and modules
 from array import array
 from logging import exception
 import socket
@@ -109,8 +111,8 @@ def main(args=None):
     t1 = Thread(target = sensor1.run)
     t1.daemon = True
 
-    ## you can also launch a second sensor
-    sensor2 = Sensor('127.0.0.1', 10000, 4000, 0.003) # Define a sensor with 4000Hz sampling rate and 3ms delay
+    # Launched a second sensor
+    sensor2 = Sensor('127.0.0.1', 10000, 4000, 0.001) # Define a sensor with 4000Hz sampling rate and 1ms delay
     t2 = Thread(target = sensor2.run)    
     t2.daemon = True
 
