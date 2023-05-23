@@ -28,7 +28,11 @@ To use this repository, ROS2 should be installed (the Humble distribution was us
 	```
 	ros2 run sensor_data client
 	```
-The client node should now print data for each sensor to the command line.
+The client node should now print data for each sensor to the command line, as shown below:
+```
+Sensor 1: array('d', [0.3787783585084664, 0.6895387732413033, 0.8848552216641941])
+Sensor 2: array('d', [0.5387855777673284, 0.8236174288867347, 0.46963570027992874])
+```
 
 ## Chosen Number of Samples
 Calls to the sensors should be published at a rate of 500 Hz, which means each call should take 2 ms total. The first sensor has a 2000 Hz sampling rate and a 1 ms delay. This sensor takes 0.5ms per sample, plus the 1 ms delay time. Therefore, **2 samples should be taken for sensor 1** so that the total call time is the desired 2 ms. The second sensor has a 4000 Hz sampling rate and a 1 ms delay. This sensor takes 0.25ms per sample, plus the 1 ms delay. Therefore, **4 samples should be taken for sensor 2** to achieve the desired 2 ms call time.
