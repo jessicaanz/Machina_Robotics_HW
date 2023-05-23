@@ -12,7 +12,7 @@ from custom_interfaces.srv import SensorData
 
 # Define sample request for each sensor
 number_of_samples1 = 2
-number_of_samples2 = 2
+number_of_samples2 = 4
 
 # Create a TCP/IP socket for each sensor
 sock1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -73,15 +73,11 @@ while rclpy.ok():
     # Split the data array into xyz data for each sample
     split_data1 = np.split(data1, number_of_samples1)
 
-    # Publish the first dataset from sensor 1 as a topic
-    msg1 = Float64MultiArray()
-    msg1.data = split_data1[0].tolist()
-    publisher1.publish(msg1)
-
-    # Publish the second subarray from sensor 1 as a topic
-    msg2 = Float64MultiArray()
-    msg2.data = split_data1[1].tolist()
-    publisher1.publish(msg2)
+    # Publish the datasets from sensor 1 as a topic
+    for i in range(number_of_samples1):
+    	msg1 = Float64MultiArray()
+    	msg1.data = split_data1[i].tolist()
+    	publisher1.publish(msg1)
 
     # Call the sensor service for sensor 1 to process the data
     request1 = SensorData.Request()
@@ -98,15 +94,11 @@ while rclpy.ok():
     # Split the data array into xyz data for each sample
     split_data2 = np.split(data2, number_of_samples2)
 
-    # Publish the first dataset from sensor 2 as a topic
-    msg3 = Float64MultiArray()
-    msg3.data = split_data2[0].tolist()
-    publisher2.publish(msg3)
-
-    # Publish the second subarray from sensor 2 as a topic
-    msg4 = Float64MultiArray()
-    msg4.data = split_data2[1].tolist()
-    publisher2.publish(msg4)
+    # Publish the datasets from sensor 2 as a topic
+    for i in range(number_of_samples2):
+    	msg2 = Float64MultiArray()
+    	msg2.data = split_data2[i].tolist()
+    	publisher2.publish(msg2)
 
     # Call the sensor service for sensor 2 to process the data
     request2 = SensorData.Request()
@@ -120,4 +112,3 @@ while rclpy.ok():
 print('closing sockets')
 sock1.close()
 sock2.close()
-
