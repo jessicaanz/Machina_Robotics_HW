@@ -5,7 +5,7 @@ The goal of this project was to build a ROS2 network that will handle data from 
 ## Installation and Usage
 To use this repository, ROS2 should be installed (the Humble distribution was used to develop this code). With ROS2 installed, follow these steps to implement the repository:
 1.  Clone the repository by running the following command in a terminal
-	‘git clone https://github.com/jessicaanz/Machina_Robotics_HW.git’
+	```git clone https://github.com/jessicaanz/Machina_Robotics_HW.git```
 2. Navigate to the ‘ros2_ws’ directory, check for missing dependencies, and build the workspace
 	‘cd ros2_ws’
 	‘rosdep install -i --from-path src --rosdistro humble -y’
