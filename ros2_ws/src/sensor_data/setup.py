@@ -18,6 +18,7 @@ setup(
     description='Service and client to publish data for 3 DOF sensor.',
     license='Apache License 2.0',
     tests_require=['pytest'],
+    # added entry points for the service and client files
     entry_points={
         'console_scripts': [
           'service = sensor_data.sensor_service:main',
