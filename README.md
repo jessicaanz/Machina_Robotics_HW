@@ -5,22 +5,22 @@ The goal of this project was to build a ROS2 network that will handle data from 
 ## Installation and Usage
 To use this repository, ROS2 should be installed (the Humble distribution was used to develop this code). With ROS2 installed, follow these steps to implement the repository:
 1.  Clone the repository by running the following command in a terminal
-‘’’git clone https://github.com/jessicaanz/Machina_Robotics_HW.git’’
+	‘git clone https://github.com/jessicaanz/Machina_Robotics_HW.git’
 2. Navigate to the ‘ros2_ws’ directory, check for missing dependencies, and build the workspace
-	‘’’cd ros2_ws’’’
-	‘’’rosdep install -i --from-path src --rosdistro humble -y’’’
-	‘’’colcon build’’’
+	‘cd ros2_ws’
+	‘rosdep install -i --from-path src --rosdistro humble -y’
+	‘colcon build’
 3. Open a new terminal, navigate to the workspace, and source the setup files
-	‘’’cd ros2_ws’’’
-	‘’’source install/setup.bash’’’
+	‘cd ros2_ws’
+	‘source install/setup.bash’
 4. Run the service node
-	‘’’ros2 run sensor_data service’’’
+	‘ros2 run sensor_data service’
 5. Open another terminal, navigate to the workspace, and source the setup files (repeat step 3)
 6. Run the client node
-	‘’’ros2 run sensor_data client’’’
+	‘ros2 run sensor_data client’
 The client node should now print data for each sensor to the command line.
 
-### Chosen Number of Samples
+## Chosen Number of Samples
 Calls to the sensors should be published at a rate of 500 Hz, which means each call should take 2 ms total. The first sensor has a 2000 Hz sampling rate and a 1 ms delay. This sensor takes 0.5ms per sample, plus the 1 ms delay time. Therefore, 2 samples should be taken so that the total call time is the desired 2 ms. The second sensor has a 4000 Hz sampling rate and a 1 ms delay. This sensor takes 0.25ms per sample, plus the 1 ms delay. Therefore, 4 samples should be taken to achieve the desired 2 ms call time.
 
 ## Sources
