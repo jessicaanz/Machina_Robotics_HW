@@ -1,3 +1,4 @@
-float64[] data
+# No input parameter needed
 ---
-bool success
+# Outputs an array of float values corresponding to the sensor reading
+float64[] data
